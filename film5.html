@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FILM-VIEWER</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link rel="stylesheet" href="style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+$(function() {
+
+ $(window).scroll(function() {
+
+ if($(this).scrollTop() != 0) {
+
+ $('#toTop').fadeIn();
+
+ } else {
+
+ $('#toTop').fadeOut();
+
+ }
+
+ });
+
+ $('#toTop').click(function() {
+
+ $('body,html').animate({scrollTop:0},800);
+
+ });
+
+});
+
+</script>
+</head>
+
+	<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">FILM-VIEWER</a>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a href="index.html" class="nav-link">Главная</a>
+						</li>
+						<li class="nav-item">
+							<a href="films.html" class="nav-link">Фильмы</a>
+						</li>
+						<li class="nav-item">
+							<a href="news.html" class="nav-link">Новости</a>
+						</li>
+					</ul> </div>
+				</div>
+			</nav>
+
+
+<hr><br>
+
+		<div class="container-fluid padding">
+			<div class="row padding">
+
+				<div class="col-lg-4">
+					<img src="https://upload.wikimedia.org/wikipedia/ru/thumb/9/9d/Matrix-DVD.jpg/217px-Matrix-DVD.jpg" class="rounded float-left mba">
+				</div>
+        <div class="col-lg-8">
+          <h2>Матрица</h2><br><br>
+          <p><svg class="bi bi-caret-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M6 12.796L11.481 8 6 3.204v9.592zm.659.753l5.48-4.796a1 1 0 000-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 001.659.753z" clip-rule="evenodd"/>
+</svg>Жанр:		 фантастика, боевик</p><br>
+<p><svg class="bi bi-caret-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M6 12.796L11.481 8 6 3.204v9.592zm.659.753l5.48-4.796a1 1 0 000-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 001.659.753z" clip-rule="evenodd"/>
+</svg>Страна:   США</p><br>
+<p><svg class="bi bi-caret-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M6 12.796L11.481 8 6 3.204v9.592zm.659.753l5.48-4.796a1 1 0 000-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 001.659.753z" clip-rule="evenodd"/>
+</svg>Бюджет:  $63 000 000</p><br>
+<p><svg class="bi bi-caret-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M6 12.796L11.481 8 6 3.204v9.592zm.659.753l5.48-4.796a1 1 0 000-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 001.659.753z" clip-rule="evenodd"/>
+</svg>Сборы:  $463 517 383</p>
+          <br>
+        </div>
+        <br>
+			</div>
+
+
+      <div class="container-fluid">
+        <div class="row text-center alert">
+          <hr>
+          <div class="col-12">
+            <p class="lead">Жизнь Томаса Андерсона разделена на две части: днём он — самый обычный офисный работник, получающий нагоняи от начальства, а ночью превращается в хакера по имени Нео, и нет места в сети, куда он не смог бы дотянуться. Но однажды всё меняется — герой, сам того не желая, узнаёт страшную правду: всё, что его окружает — не более, чем иллюзия, Матрица, а люди — всего лишь источник питания для искусственного интеллекта, поработившего человечество. И только Нео под силу изменить расстановку сил в этом чужом и страшном мире.</p>
+          </div>
+          <hr>
+        </div>
+      </div>
+			<div class="container-fluid">
+				<div class="row text-center alert">
+					<div class="col-12">
+						<h1 class="display-4">Смотреть онлайн</h1>
+					</div>
+					<hr>
+					<div class="col-12">
+            <iframe width="971" height="546" src="https://www.youtube.com/embed/ufEE-lJweJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+				</div>
+			</div>
+
+    <div id = "toTop" > Up </div >
+    		</body>
+</html>

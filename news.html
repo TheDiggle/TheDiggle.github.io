@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FILM-VIEWER</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link rel="stylesheet" href="style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+$(function() {
+
+ $(window).scroll(function() {
+
+ if($(this).scrollTop() != 0) {
+
+ $('#toTop').fadeIn();
+
+ } else {
+
+ $('#toTop').fadeOut();
+
+ }
+
+ });
+
+ $('#toTop').click(function() {
+
+ $('body,html').animate({scrollTop:0},800);
+
+ });
+
+});
+
+</script>
+</head>
+
+	<body>
+
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">FILM-VIEWER</a>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a href="index.html" class="nav-link">Главная</a>
+						</li>
+						<li class="nav-item">
+							<a href="films.html" class="nav-link">Фильмы</a>
+						</li>
+						<li class="nav-item">
+							<a href="news.html" class="nav-link">Новости</a>
+						</li>
+					</ul> </div>
+				</div>
+			</nav>
+
+
+    <div class="container-fluid">
+			<div class="row text-center alert">
+				<div class="col-12">
+					<h1 class="display-4">Новости кино</h1>
+				</div>
+				<hr>
+			</div>
+		</div>
+
+
+
+		<div class="container-fluid padding">
+			<div class="row padding">
+				<div class="col-lg-6">
+					<h2>Стало известно, когда возобновят съемки «Аватара»</h2><br>
+					<p>Продюсер франшизы «Аватар» Джон Ландау заявил, что съёмки сиквелов возобновятся уже на следующей неделе. По его словам, площадки в Новой Зеландии уже готовы. Он также поделился...</p>
+					<br>
+					<a href="https://www.film.ru/news/vozvraschenie-v-novuyu-zelandiyu" class="btn btn-danger">Читать в источнике</a>
+				</div>
+				<br>
+				<div class="col-lg-6">
+					<img src="https://www.film.ru/sites/default/files/styles/thumb_1024x450/public/filefield_paths/455897.1200xp.jpg" class="img-fluid">
+				</div>
+			</div>
+		</div>
+    <hr>
+    <div class="container-fluid padding">
+      <div class="row padding">
+        <div class="col-lg-6">
+          <h2>Вышел трейлер финального сезона «13 причин почему»</h2><br>
+          <p>Netflix поделился трейлером финального сезона «13 причин почему». Судя по трейлеру, в новом сезоне главных героев ждёт расплата за сокрытие истинного убийцы Брайса, а Клэя вновь настигнут призраки прошлого...</p>
+          <br>
+          <a href="https://www.film.ru/news/treyler-13-prichin-pochemu-0" class="btn btn-danger">Читать в источнике</a>
+        </div>
+        <br>
+        <div class="col-lg-6">
+          <img src="https://www.film.ru/sites/default/files/styles/thumb_1024x450/public/filefield_paths/abc9768f-defe-4ecd-a9da-d2843415ed23-13rw_408_unit_05036r.jpg" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <div id = "toTop" > Up </div >
+    		</body>
+</html>
